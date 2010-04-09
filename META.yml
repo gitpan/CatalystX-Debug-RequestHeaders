@@ -3,7 +3,7 @@ abstract: 'Log the full request headers sent to a Catalyst application in debug 
 author:
   - 'Tomas Doran (t0m) C<< <bobtfish@bobtfish.net> >>.'
 build_requires:
-  Catalyst::Runtime: 5.8022
+  Catalyst::Runtime: 5.80022
   ExtUtils::MakeMaker: 6.42
   Test::More: 0.88
   Test::WWW::Mechanize::Catalyst: 0
@@ -25,5 +25,5 @@ requires:
   namespace::autoclean: 0
 resources:
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/bobtfish/CatalystX-Debug-RequestHeaders.git
-version: 0.001
+  repository: git://git.shadowcat.co.uk/catagits/CatalystX-Debug-RequestHeaders
+version: 0.002
